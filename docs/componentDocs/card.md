@@ -5,7 +5,7 @@
 <br />
 
 <mp-card
-    imgSrc="/1.png"
+    imgSrc="/MPUI/1.png"
     summary="Next.js+React+Node系统实战，搞定SSR服务器渲染"
 ></mp-card>
 
