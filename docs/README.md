@@ -1,17 +1,16 @@
-# mp-fast-ui 组件库
+# 快速开始
 
-### 快速开始
-
-#### 1.安装组件库
-
+#### 安装组件库
 
 ```bash
- npm i mp-fast-ui
+npm i MPUI
 ```
+#### 引用组件库
+> 在main.js中引用组件库
 
-#### 2.引进组件库
 ```javascript
-// 全部引进
+
+// 全局引进
 import 'mp-fast-ui/dist/css/index.css'
 import MPUI from 'mp-fast-ui';
 Vue.use(MPUI)
@@ -20,4 +19,6 @@ Vue.use(MPUI)
 import 'mp-fast-ui/dist/css/demo.css';
 import { Demo } from 'mp-fast-ui';
 Vue.use(Demo);
+
 ```
+
