@@ -1,5 +1,4 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
+module.exports = {
   pages:{
     index:{
       entry:"examples/main.js",
@@ -7,6 +6,5 @@ module.exports = defineConfig({
       filename:'index.html'
     }
   },
-  transpileDependencies: true,
   lintOnSave:false,
-})
+}

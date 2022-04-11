@@ -7,11 +7,14 @@ import App from './App.vue'
 
 import '../components/css/index.scss';
 
-import Demo from '../components/lib/demo/index'
-import Card from '../components/lib/card/index'
+// import Demo from '../components/lib/demo/index'
+// import Card from '../components/lib/card/index'
+// Vue.use(Demo);
+// Vue.use(Card);
 
-Vue.use(Demo);
-Vue.use(Card);
+
+import API from '../components/lib/index.js';
+Vue.use(API)
 
 Vue.config.productionTip = false
 
