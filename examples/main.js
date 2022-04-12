@@ -16,6 +16,9 @@ import '../components/css/index.scss';
 import API from '../components/lib/index.js';
 Vue.use(API)
 
+import tips from '../components/lib/tips/index.js'
+Vue.use(tips)
+
 Vue.config.productionTip = false
 
 new Vue({

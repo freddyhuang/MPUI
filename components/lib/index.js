@@ -1,10 +1,11 @@
 import Demo from "./demo";
 import Card from "./card";
+import Tips from "./tips";
 
 
 const components = {
     Demo,
-    Card
+    Card,
 }
 
 const install = function(Vue) {
@@ -16,7 +17,7 @@ const install = function(Vue) {
 
 
 const API = {
-    install,
+    install
 }
 
 export default API
