@@ -34,6 +34,10 @@ export default {
             type:String,
             default:'',
         }
+    },
+    methods:{
+        // 获取两个日期的所有日
+
     }
 }
 </script>

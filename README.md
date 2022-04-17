@@ -21,3 +21,7 @@ import 'mp-fast-ui/dist/css/demo.css';
 import { Demo } from 'mp-fast-ui';
 Vue.use(Demo);
 ```
+
+## 具体教程
+
+[官方链接](https://freddyhuang.github.io/MPUI/)： https://freddyhuang.github.io/MPUI/
