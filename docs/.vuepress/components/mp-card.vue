@@ -36,7 +36,8 @@ export default {
         }
     },
     methods:{
-        // 获取两个日期的所有日
+        // 校验表单是否通过
+        calculateDaysBetweeenTwoDay
 
     }
 }
