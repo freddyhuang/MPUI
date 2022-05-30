@@ -1,3 +1,4 @@
+import { getRenderFunctionFromSassImplementation } from 'sass-loader/dist/utils';
 import Vue from 'vue';
 import Tips from './src/main.vue';
 
@@ -25,6 +26,7 @@ function initTips(props) {
 
     return node;
 }
+
 
 
 // Tips.install = function(Vue){
