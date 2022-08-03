@@ -1,11 +1,13 @@
 import Demo from "./demo";
 import Card from "./card";
-import Tips from "./tips";
+import { Tabs, Tab } from "./tabs"
 
 
 const components = {
     Demo,
     Card,
+    Tabs,
+    Tab
 }
 
 const install = function(Vue) {

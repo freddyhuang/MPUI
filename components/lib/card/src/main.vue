@@ -16,7 +16,7 @@
 <script>
 
 export default {
-    name:'v-card',
+    name:'mp-card',
     props:{
         width:{ // 卡片宽度
             type:Number,

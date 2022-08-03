@@ -15,7 +15,8 @@ module.exports = {
       ],
       sidebar: [
         '/',
-        '/componentDocs/card'
+        '/componentDocs/card',
+        '/componentDocs/tips',
       ]
     }
   }
