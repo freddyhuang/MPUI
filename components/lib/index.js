@@ -1,11 +1,13 @@
 import Demo from "./demo";
 import Card from "./card";
+import Input from "./input";
 import { Tabs, Tab } from "./tabs"
 
 
 const components = {
     Demo,
     Card,
+    Input,
     Tabs,
     Tab
 }

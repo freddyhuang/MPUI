@@ -31,6 +31,10 @@
     </mp-card>
 
     <div style="margin-top: 30px">
+      <mp-input type="text" placeholder="请输入" label="这个是左边的说明"></mp-input>
+    </div>
+
+    <div style="margin-top: 30px">
       <mp-tabs class="tabs" v-model="activeIndex">
         <mp-tab title="扫码tab" name="1" >
           扫码
@@ -53,8 +57,10 @@
 </template>
 
 <script>
+import MpInput from "../components/lib/input/src/main";
 export default {
   name: "App",
+  components: {MpInput},
   data () {
     return {
       activeIndex: 1

@@ -1,4 +1,3 @@
-import { getRenderFunctionFromSassImplementation } from 'sass-loader/dist/utils';
 import Vue from 'vue';
 import Tips from './src/main.vue';
 
