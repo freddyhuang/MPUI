@@ -16,6 +16,7 @@ module.exports = {
       sidebar: [
         '/',
         '/componentDocs/card',
+        '/componentDocs/tabs',
         '/componentDocs/tips',
       ]
     }

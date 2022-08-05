@@ -36,9 +36,6 @@ export default {
         }
     },
     methods:{
-        // 校验表单是否通过
-        calculateDaysBetweeenTwoDay
-
     }
 }
 </script>
