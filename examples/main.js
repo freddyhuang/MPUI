@@ -5,14 +5,12 @@ import App from './App.vue'
 // import MPUI from 'mp-fast-ui';
 // Vue.use(MPUI)
 
-import '../components/css/index.scss';
-
 // import Demo from '../components/lib/demo/index'
 // import Card from '../components/lib/card/index'
 // Vue.use(Demo);
 // Vue.use(Card);
 
-
+import '../components/css/index.scss';
 import API from '../components/lib/index.js';
 Vue.use(API)
 
