@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+        <mp-radio v-model="productTypeVal" :options="productTypeList"></mp-radio>
 <!--    <img alt="Vue logo" src="./assets/logo.png" />-->
 
 <!--    <div style="margin-top: 30px">-->
@@ -69,7 +70,18 @@ export default {
   name: "App",
   data () {
     return {
-      activeIndex: 1
+      activeIndex: 1,
+      productTypeList: [
+        {
+          label:"不限",
+          value: '1'
+        },
+        {
+          label: "理财",
+          value: '2'
+        }
+      ],
+      productTypeVal: '1'
     }
   },
   mounted() {},

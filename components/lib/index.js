@@ -1,6 +1,7 @@
 import Demo from "./demo";
 import Card from "./card";
 import Input from "./input";
+import Radio from "./radio";
 import { Tabs, Tab } from "./tabs"
 
 
@@ -9,7 +10,8 @@ const components = {
     Card,
     Input,
     Tabs,
-    Tab
+    Tab,
+    Radio
 }
 
 const install = function(Vue) {
