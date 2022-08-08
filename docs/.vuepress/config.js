@@ -15,7 +15,10 @@ module.exports = {
       ],
       sidebar: [
         '/',
+        '/componentDocs/input',
         '/componentDocs/card',
+        '/componentDocs/tabs',
+        '/componentDocs/radio',
         '/componentDocs/tips',
       ]
     }

@@ -1,19 +1,45 @@
 # Tips
 弹出提示
 
-### 示例
+### 示例一
 <br />
 
-this.$tips({
-type: "success",
-message: "操作成功",
-duration: 2000,
-});
+![/MPUI/img.png](img.png)
 
 ### 代码
 ``` js
  this.$tips({
     type: "success",
+    message: "操作成功",
+    duration: 2000,
+ });
+```
+
+### 示例二
+<br />
+
+![./MPUI/img_1.png](/MPUI/img_1.png)
+
+
+### 代码
+``` js
+ this.$tips({
+    type: "warn",
+    message: "操作成功",
+    duration: 2000,
+ });
+```
+
+### 示例三
+<br />
+
+![./img_2.png](/MPUI/img_2.png)
+
+
+### 代码
+``` js
+ this.$tips({
+    type: "error",
     message: "操作成功",
     duration: 2000,
  });

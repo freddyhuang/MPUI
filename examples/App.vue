@@ -1,51 +1,60 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+        <mp-radio v-model="productTypeVal" :options="productTypeList"></mp-radio>
+<!--    <img alt="Vue logo" src="./assets/logo.png" />-->
 
-    <Demo></Demo>
-    <mp-card
-      imgSrc="1.png"
-      summary="多端全栈项目实战，大型商业级代驾业务全流程落地"
-    ></mp-card>
+<!--    <div style="margin-top: 30px">-->
+<!--      <mp-input type="text" placeholder="请输入" label="说明:" label-position="right"></mp-input>-->
+<!--    </div>-->
 
-    <mp-card
-      imgSrc="2.png"
-      summary="Next.js+React+Node系统实战，搞定SSR服务器渲染"
-    >
-      <template v-slot:footer>
-        <div class="footer">
-          <div class="level">中级 * 528人报名</div>
-          <div class="price">￥299.00</div>
-        </div>
-      </template>
-    </mp-card>
+<!--    <div style="margin-top: 30px;">-->
+<!--      <mp-input type="text" placeholder="请输入" label="说明:" label-position="right">-->
+<!--        <template v-slot:mp-input-right>-->
+<!--            <div>右边插槽</div>-->
+<!--        </template>-->
+<!--      </mp-input>-->
+<!--     </div>-->
 
-    <mp-card imgSrc="3.png" :width="370" :imgHeight="90">
-      构建千万级高可用企业级Node.js应用
-      <template v-slot:footer>
-        <div class="footer-spring">
-          <div class="level">4步骤 * 6门课</div>
-          <div class="level">10965收藏</div>
-        </div>
-      </template>
-    </mp-card>
+        <!--    <Demo></Demo>-->
+<!--    <mp-card-->
+<!--      imgSrc="1.png"-->
+<!--      summary="多端全栈项目实战，大型商业级代驾业务全流程落地"-->
+<!--    ></mp-card>-->
 
-    <div style="margin-top: 30px">
-      <mp-input type="text" placeholder="请输入" label="这个是左边的说明"></mp-input>
-    </div>
+<!--    <mp-card-->
+<!--      imgSrc="2.png"-->
+<!--      summary="Next.js+React+Node系统实战，搞定SSR服务器渲染"-->
+<!--    >-->
+<!--      <template v-slot:footer>-->
+<!--        <div class="footer">-->
+<!--          <div class="level">中级 * 528人报名</div>-->
+<!--          <div class="price">￥299.00</div>-->
+<!--        </div>-->
+<!--      </template>-->
+<!--    </mp-card>-->
 
-    <div style="margin-top: 30px">
-      <mp-tabs class="tabs" v-model="activeIndex">
-        <mp-tab title="扫码tab" name="1" >
-          扫码
-        </mp-tab>
-        <mp-tab title="支付tab" name="2" >
-          支付
-        </mp-tab>
-      </mp-tabs>
-    </div>
+<!--    <mp-card imgSrc="3.png" :width="370" :imgHeight="90">-->
+<!--      构建千万级高可用企业级Node.js应用-->
+<!--      <template v-slot:footer>-->
+<!--        <div class="footer-spring">-->
+<!--          <div class="level">4步骤 * 6门课</div>-->
+<!--          <div class="level">10965收藏</div>-->
+<!--        </div>-->
+<!--      </template>-->
+<!--    </mp-card>-->
 
-    <div style="margin-top: 50px;">
+<!--    <div style="margin-top: 30px">-->
+<!--      <mp-tabs class="tabs" v-model="activeIndex">-->
+<!--        <mp-tab title="扫码tab" name="1" >-->
+<!--          扫码-->
+<!--        </mp-tab>-->
+<!--        <mp-tab title="支付tab" name="2" >-->
+<!--          支付-->
+<!--        </mp-tab>-->
+<!--      </mp-tabs>-->
+<!--    </div>-->
+
+    <div style="margin-top: 200px;">
       <button @click="successMessage">success</button>
 
       <button @click="errorMessage">error</button>
@@ -57,13 +66,22 @@
 </template>
 
 <script>
-import MpInput from "../components/lib/input/src/main";
 export default {
   name: "App",
-  components: {MpInput},
   data () {
     return {
-      activeIndex: 1
+      activeIndex: 1,
+      productTypeList: [
+        {
+          label:"不限",
+          value: '1'
+        },
+        {
+          label: "理财",
+          value: '2'
+        }
+      ],
+      productTypeVal: '1'
     }
   },
   mounted() {},
