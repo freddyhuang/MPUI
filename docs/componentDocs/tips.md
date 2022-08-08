@@ -4,7 +4,7 @@
 ### 示例一
 <br />
 
-![img.png](img.png)
+![/MPUI/img.png](img.png)
 
 ### 代码
 ``` js
@@ -18,7 +18,7 @@
 ### 示例二
 <br />
 
-![img_1.png](img_1.png)
+![./MPUI/img_1.png](/MPUI/img_1.png)
 
 
 ### 代码
@@ -33,7 +33,7 @@
 ### 示例三
 <br />
 
-![img_2.png](img_2.png)
+![./img_2.png](/MPUI/img_2.png)
 
 
 ### 代码
