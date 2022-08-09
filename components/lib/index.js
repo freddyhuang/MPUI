@@ -3,6 +3,7 @@ import Card from "./card";
 import Input from "./input";
 import Radio from "./radio";
 import { Tabs, Tab } from "./tabs"
+import { Checkboxs, Checkbox } from "./checkboxs"
 
 
 const components = {
@@ -11,7 +12,9 @@ const components = {
     Input,
     Tabs,
     Tab,
-    Radio
+    Radio,
+    Checkboxs,
+    Checkbox
 }
 
 const install = function(Vue) {

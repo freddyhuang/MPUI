@@ -1,7 +1,18 @@
 <template>
   <div id="app">
-        <mp-radio v-model="productTypeVal" :options="productTypeList"></mp-radio>
-<!--    <img alt="Vue logo" src="./assets/logo.png" />-->
+        <!-- <mp-radio v-model="productTypeVal" :options="productTypeList"></mp-radio> -->
+        <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+        <mp-checkbox-group v-model="hobby">
+          <mp-checkbox label="抽烟"></mp-checkbox>
+          <mp-checkbox label="喝酒" type="circular"></mp-checkbox>
+          <mp-checkbox label="打牌"></mp-checkbox>
+        </mp-checkbox-group>
+
+        
+        <!-- <div class="item">
+            <router-link to="/checkboxs">复选框</router-link>
+        </div> -->
+    
 
 <!--    <div style="margin-top: 30px">-->
 <!--      <mp-input type="text" placeholder="请输入" label="说明:" label-position="right"></mp-input>-->
@@ -81,6 +92,7 @@ export default {
           value: '2'
         }
       ],
+      hobby:['抽烟', '喝酒'],
       productTypeVal: '1'
     }
   },
@@ -111,7 +123,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -119,6 +131,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  .item {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+  }
 }
 .footer {
   padding: 0 8px;
