@@ -19,6 +19,7 @@ module.exports = {
         '/componentDocs/card',
         '/componentDocs/tabs',
         '/componentDocs/radio',
+        '/componentDocs/checkboxs',
         '/componentDocs/tips',
       ]
     }
