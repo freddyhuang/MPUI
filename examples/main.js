@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-
 // import 'mp-fast-ui/dist/css/index.css'
 // import MPUI from 'mp-fast-ui';
 // Vue.use(MPUI)

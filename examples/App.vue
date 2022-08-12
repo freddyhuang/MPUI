@@ -8,6 +8,55 @@
           <mp-checkbox label="打牌"></mp-checkbox>
         </mp-checkbox-group>
 
+        <div style="margin-top:30px; display: flex;justify-content: space-around;">
+          <mp-button>按钮</mp-button>
+          <mp-button  type="primary">primary按钮</mp-button>
+          <mp-button type="success">success按钮</mp-button>
+          <mp-button type="info">info按钮</mp-button>
+          <mp-button type="warning">warning按钮</mp-button>
+          <mp-button type="danger">danger按钮</mp-button>
+        </div>
+
+
+        <div style="margin-top:30px;">
+          <mp-button plain>按钮</mp-button>
+          <mp-button plain  type="primary">primary按钮</mp-button>
+          <mp-button plain type="success">success按钮</mp-button>
+          <mp-button plain type="info">info按钮</mp-button>
+          <mp-button plain type="warning">warning按钮</mp-button>
+          <mp-button plain type="danger">danger按钮</mp-button>
+        </div>
+
+        <div style="margin-top:30px;">
+          <mp-button round>按钮</mp-button>
+          <mp-button round plain  type="primary">primary按钮</mp-button>
+          <mp-button round type="success">success按钮</mp-button>
+          <mp-button round type="info">info按钮</mp-button>
+          <mp-button round plain type="warning">warning按钮</mp-button>
+          <mp-button round type="danger">danger按钮</mp-button>
+        </div>
+
+        <div style="margin-top:30px;">
+          <mp-button circle>按钮</mp-button>
+          <mp-button circle round plain  type="primary">primary按钮</mp-button>
+          <mp-button circle type="success">32</mp-button>
+          <mp-button circle round type="info">info按钮</mp-button>
+          <mp-button circle round plain type="warning">warning按钮</mp-button>
+          <mp-button circle type="danger">danger按钮</mp-button>
+        </div>
+
+         <div style="margin-top:30px;">
+          <mp-button type="primary" icon="delete"  @click="handleClick">按钮</mp-button>
+        </div>
+
+        <div style="margin-top:30px;">
+          <mp-button  @click="handleClick">按钮</mp-button>
+        </div>
+
+        <div style="margin-top:30px;">
+          <mp-button disabled @click="handleClick">按钮</mp-button>
+        </div>
+
         
         <!-- <div class="item">
             <router-link to="/checkboxs">复选框</router-link>
@@ -98,6 +147,9 @@ export default {
   },
   mounted() {},
   methods: {
+    handleClick(e){
+      console.log(e)
+    },
     successMessage() {
       this.$tips({
         type: "success",

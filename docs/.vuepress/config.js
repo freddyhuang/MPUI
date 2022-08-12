@@ -15,6 +15,7 @@ module.exports = {
       ],
       sidebar: [
         '/',
+        '/componentDocs/button',
         '/componentDocs/input',
         '/componentDocs/card',
         '/componentDocs/tabs',
